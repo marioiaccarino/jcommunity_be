@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="921957b2-8020-4be0-be49-5779c152e556" name="Changes" comment="Fixed problems about 1Review + updated project structure + added UserSearchDto and PostSearchDto">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/18346ed4-d5bc-4806-baee-b5b76f9279fc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/18346ed4-d5bc-4806-baee-b5b76f9279fc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/jpanik/controllers/CommunityController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/jpanik/controllers/CommunityController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/jpanik/controllers/FriendshipController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/jpanik/controllers/FriendshipController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/jpanik/controllers/InteractionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/jpanik/controllers/InteractionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/jpanik/controllers/PostController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/jpanik/controllers/PostController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/jpanik/controllers/UserCommunityController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/jpanik/controllers/UserCommunityController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/jpanik/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/jpanik/controllers/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/import.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/import.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/jpanik/config/WebSecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/it/jpanik/config/WebSecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/jpanik/controllers/AuthenticationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/it/jpanik/controllers/AuthenticationController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/jpanik/controllers/CommunityController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/it/jpanik/controllers/CommunityController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/jpanik/controllers/FriendshipController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/it/jpanik/controllers/FriendshipController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/jpanik/controllers/InteractionController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/it/jpanik/controllers/InteractionController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/jpanik/controllers/PostController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/it/jpanik/controllers/PostController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/jpanik/controllers/UserCommunityController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/it/jpanik/controllers/UserCommunityController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/jpanik/controllers/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/it/jpanik/controllers/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/jpanik/dto/CommunityDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/it/jpanik/dto/CommunityDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/jpanik/dto/FriendshipDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/it/jpanik/dto/FriendshipDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/jpanik/dto/InteractionDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/it/jpanik/dto/InteractionDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/jpanik/dto/LoginObjectDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/jpanik/dto/PostDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/it/jpanik/dto/PostDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/jpanik/dto/RegisterObjectDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/jpanik/dto/UserCommunityDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/it/jpanik/dto/UserCommunityDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/jpanik/dto/UserDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/it/jpanik/dto/UserDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/jpanik/entities/Community.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/it/jpanik/entities/Community.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/jpanik/entities/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/it/jpanik/entities/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/jpanik/entities/UserCommunity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/it/jpanik/entities/UserCommunity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/jpanik/mappers/CommunityMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/it/jpanik/mappers/CommunityMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/jpanik/mappers/FriendshipMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/it/jpanik/mappers/FriendshipMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/jpanik/mappers/InteractionMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/it/jpanik/mappers/InteractionMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/jpanik/mappers/Mapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/it/jpanik/mappers/Mapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/jpanik/mappers/PostMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/it/jpanik/mappers/PostMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/jpanik/mappers/RegisterMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/jpanik/mappers/UserCommunityMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/it/jpanik/mappers/UserCommunityMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/jpanik/mappers/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/it/jpanik/mappers/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/jpanik/model/AuthenticationResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/jpanik/model/MessageResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/jpanik/repositories/CommunityRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/it/jpanik/repositories/CommunityRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/jpanik/repositories/FriendshipRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/it/jpanik/repositories/FriendshipRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/jpanik/repositories/InteractionRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/it/jpanik/repositories/InteractionRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/jpanik/repositories/PostRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/it/jpanik/repositories/PostRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/jpanik/repositories/UserCommunityRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/it/jpanik/repositories/UserCommunityRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/jpanik/repositories/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/it/jpanik/repositories/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/jpanik/security/AuthEntryPointJwt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/it/jpanik/security/AuthEntryPointJwt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/jpanik/security/AuthTokenFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/it/jpanik/security/AuthTokenFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/jpanik/security/JwtUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/it/jpanik/security/JwtUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/jpanik/services/CommunityService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/it/jpanik/services/CommunityService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/jpanik/services/FriendshipService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/it/jpanik/services/FriendshipService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/jpanik/services/PostService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/it/jpanik/services/PostService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/jpanik/services/UserCommunityService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/it/jpanik/services/UserCommunityService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/jpanik/services/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/it/jpanik/services/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/jpanik/services/servicesImp/CommunityServiceImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/it/jpanik/services/servicesImp/CommunityServiceImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/jpanik/services/servicesImp/FriendshipServiceImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/it/jpanik/services/servicesImp/FriendshipServiceImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/jpanik/services/servicesImp/InteractionServiceImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/it/jpanik/services/servicesImp/InteractionServiceImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/jpanik/services/servicesImp/PostServiceImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/it/jpanik/services/servicesImp/PostServiceImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/jpanik/services/servicesImp/UserCommunityServiceImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/it/jpanik/services/servicesImp/UserCommunityServiceImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/jpanik/services/servicesImp/UserDetailsServiceImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/it/jpanik/services/servicesImp/UserDetailsServiceImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/jpanik/services/servicesImp/UserServiceImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/it/jpanik/services/servicesImp/UserServiceImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/jpanik/validator/CommunityValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/it/jpanik/validator/CommunityValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/jpanik/validator/FriendshipValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/it/jpanik/validator/FriendshipValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/jpanik/validator/InteractionValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/it/jpanik/validator/InteractionValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/jpanik/validator/PostValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/it/jpanik/validator/PostValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/jpanik/validator/UserCommunityValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/it/jpanik/validator/UserCommunityValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/jpanik/validator/UserValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/it/jpanik/validator/UserValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/jpanik/validator/Validator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/it/jpanik/validator/Validator.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2gV3CrJIbyRbPvv8sXIvHauh0ip" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showModules" value="false" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.jCommunityApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/mario/IdeaProjects/jcommunity-be&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="it.jpanik.controllers" />
+      <recent name="it.jpanik.services.servicesImp" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="jCommunityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="jcommunity-be" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="it.jpanik.jCommunityApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="921957b2-8020-4be0-be49-5779c152e556" name="Changes" comment="" />
+      <created>1715768796284</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1715768796284</updated>
+      <workItem from="1715768801409" duration="2266000" />
+      <workItem from="1715771439569" duration="2868000" />
+      <workItem from="1715877201869" duration="961000" />
+      <workItem from="1716197120841" duration="7372000" />
+      <workItem from="1716274346868" duration="7873000" />
+      <workItem from="1716288508702" duration="11029000" />
+      <workItem from="1716360652716" duration="2881000" />
+      <workItem from="1716448147651" duration="6293000" />
+      <workItem from="1716540057229" duration="4870000" />
+      <workItem from="1716793272867" duration="6310000" />
+      <workItem from="1716822385872" duration="1186000" />
+      <workItem from="1716879366549" duration="5801000" />
+      <workItem from="1716966261554" duration="837000" />
+      <workItem from="1716975692109" duration="3950000" />
+      <workItem from="1717051227378" duration="582000" />
+      <workItem from="1717173165141" duration="1231000" />
+      <workItem from="1717176733199" duration="1275000" />
+      <workItem from="1717397756271" duration="468000" />
+      <workItem from="1717398312267" duration="372000" />
+      <workItem from="1717399075554" duration="337000" />
+      <workItem from="1717399688674" duration="4595000" />
+      <workItem from="1717483997921" duration="5243000" />
+      <workItem from="1717570496355" duration="2086000" />
+      <workItem from="1717590334435" duration="7574000" />
+      <workItem from="1717656536589" duration="13142000" />
+      <workItem from="1717682136395" duration="646000" />
+      <workItem from="1717683607541" duration="1317000" />
+      <workItem from="1717685321798" duration="2193000" />
+      <workItem from="1717692275864" duration="12188000" />
+      <workItem from="1717745263896" duration="19034000" />
+      <workItem from="1717929487718" duration="11553000" />
+      <workItem from="1718002433323" duration="11231000" />
+      <workItem from="1718088609574" duration="325000" />
+      <workItem from="1718089180609" duration="5765000" />
+      <workItem from="1718175149346" duration="3018000" />
+      <workItem from="1718261641887" duration="5502000" />
+      <workItem from="1718351252332" duration="2146000" />
+      <workItem from="1718607261181" duration="931000" />
+      <workItem from="1718608301807" duration="25930000" />
+      <workItem from="1720633271246" duration="3911000" />
+      <workItem from="1720642229481" duration="15000" />
+    </task>
+    <task id="LOCAL-00001" summary="Implemented User Authentication in backEnd">
+      <option name="closed" value="true" />
+      <created>1716305091871</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1716305091871</updated>
+    </task>
+    <task id="LOCAL-00002" summary="finished User Authentication in backEnd">
+      <option name="closed" value="true" />
+      <created>1716478318146</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1716478318146</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added register features">
+      <option name="closed" value="true" />
+      <created>1716579903627</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1716579903627</updated>
+    </task>
+    <task id="LOCAL-00004" summary="created register feature +&#10;added RegisterObjectDto class">
+      <option name="closed" value="true" />
+      <created>1716813757822</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1716813757822</updated>
+    </task>
+    <task id="LOCAL-00005" summary="updated UserCommunityDto">
+      <option name="closed" value="true" />
+      <created>1716910339415</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1716910339415</updated>
+    </task>
+    <task id="LOCAL-00006" summary="modified user mapper">
+      <option name="closed" value="true" />
+      <created>1717428414266</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1717428414266</updated>
+    </task>
+    <task id="LOCAL-00007" summary="updated Community Entity">
+      <option name="closed" value="true" />
+      <created>1717514471688</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1717514471688</updated>
+    </task>
+    <task id="LOCAL-00008" summary="refactoring: added JWT + Authorization calls,&#10;Secret key, AuthController">
+      <option name="closed" value="true" />
+      <created>1717601270130</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1717601270130</updated>
+    </task>
+    <task id="LOCAL-00009" summary="refactoring: added JWT + Authorization calls,&#10;Secret key, AuthController">
+      <option name="closed" value="true" />
+      <created>1717771497963</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1717771497963</updated>
+    </task>
+    <task id="LOCAL-00010" summary="popolate db with new data">
+      <option name="closed" value="true" />
+      <created>1717964134782</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1717964134782</updated>
+    </task>
+    <task id="LOCAL-00011" summary="popolate db with new data + api endpoints updated">
+      <option name="closed" value="true" />
+      <created>1718033497093</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1718033497094</updated>
+    </task>
+    <task id="LOCAL-00012" summary="popolate db with new data + api endpoints updated">
+      <option name="closed" value="true" />
+      <created>1718118918254</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1718118918254</updated>
+    </task>
+    <task id="LOCAL-00013" summary="changed db data">
+      <option name="closed" value="true" />
+      <created>1718206600364</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1718206600364</updated>
+    </task>
+    <task id="LOCAL-00014" summary="implemented postsOfTheSelectedCommunity endpoint">
+      <option name="closed" value="true" />
+      <created>1718294100600</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1718294100600</updated>
+    </task>
+    <task id="LOCAL-00015" summary="implemented postsOfTheSelectedCommunity endpoint">
+      <option name="closed" value="true" />
+      <created>1718612564864</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1718612564864</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Implemented User Authentication in backEnd" />
+    <MESSAGE value="finished User Authentication in backEnd" />
+    <MESSAGE value="Added register features" />
+    <MESSAGE value="created register feature +&#10;added RegisterObjectDto class" />
+    <MESSAGE value="updated UserCommunityDto" />
+    <MESSAGE value="modified user mapper" />
+    <MESSAGE value="updated Community Entity" />
+    <MESSAGE value="refactoring: added JWT + Authorization calls,&#10;Secret key, AuthController" />
+    <MESSAGE value="popolate db with new data" />
+    <MESSAGE value="popolate db with new data + api endpoints updated" />
+    <MESSAGE value="changed db data" />
+    <MESSAGE value="implemented postsOfTheSelectedCommunity endpoint" />
+    <MESSAGE value="Fixed problems about 1Review + updated project structure + added UserSearchDto and PostSearchDto" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed problems about 1Review + updated project structure + added UserSearchDto and PostSearchDto" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.springframework.security.core.userdetails.UsernameNotFoundException" package="org.springframework.security.core.userdetails" />
+          <option name="timeStamp" value="12" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="io.jsonwebtoken.MalformedJwtException" package="io.jsonwebtoken" />
+          <option name="timeStamp" value="13" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="java.lang.String" memberName="value" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+</project>
